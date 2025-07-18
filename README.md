@@ -1,4 +1,20 @@
-# Kubectl
+# Kubectl (MCP Fork)
+
+## Quickstart
+
+```bash
+# get repo
+git clone https://github.com/njayp/kubectl
+cd kubectl
+
+# build kubectl
+make
+
+# enable mcp server
+./bin/kubectl mcp claude enable
+```
+
+----
 
 ![kubectl logo](./images/kubectl-logo-medium.png)
 
